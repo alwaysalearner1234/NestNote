@@ -1,0 +1,13 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore env files (contain secrets)
+.env
+
+# Ignore dist/build outputs
+/dist
+/build
+
+# Relate single-file mode - MUST NOT be ignored so it commits cleanly for judges
+!.gitignore
+# Note: welcome-kit.rl must be tracked and committed to GitHub
